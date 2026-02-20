@@ -60,7 +60,8 @@ Partial Class Form1
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(319, 96)
+        Me.TextBox1.Enabled = False
+        Me.TextBox1.Location = New System.Drawing.Point(263, 96)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(120, 20)
         Me.TextBox1.TabIndex = 2
@@ -68,7 +69,8 @@ Partial Class Form1
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(319, 188)
+        Me.TextBox2.Enabled = False
+        Me.TextBox2.Location = New System.Drawing.Point(263, 188)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(120, 20)
         Me.TextBox2.TabIndex = 3
@@ -263,7 +265,8 @@ Partial Class Form1
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(446, 98)
+        Me.RadioButton1.Checked = True
+        Me.RadioButton1.Location = New System.Drawing.Point(390, 98)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(90, 17)
         Me.RadioButton1.TabIndex = 24
@@ -274,7 +277,7 @@ Partial Class Form1
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(445, 190)
+        Me.RadioButton2.Location = New System.Drawing.Point(389, 190)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(90, 17)
         Me.RadioButton2.TabIndex = 25
